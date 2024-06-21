@@ -8,7 +8,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 import discord
 from discord.ext import commands
 from json import load
-from discord.utils import get
 
 try:
     with open("config.json") as json_config:
