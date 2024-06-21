@@ -21,3 +21,11 @@ This script uses tensorflow to convert the images of the treasures to vectors. O
   1. Put your discord bot token inside the config.json file and save it.
   2. Run the discord_bot script.
   3. Use /treasure on the discord server and provide a picture (this will be user.png). The bot should then return the map, where the treasure is located by uploading a image.
+
+## How to add images
+If you want to add images to the search like for the weapon components event you can do the following:
+1. Create a new folder inside the data folder.
+2. Place a picture of the map location inside the new folder called map.png.
+3. Place a second picture of the secret image ingame inside the new folder called treasure.png. <br>
+
+The missing vector.txt file will be automatically created by the script.
