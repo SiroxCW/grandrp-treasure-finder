@@ -57,3 +57,4 @@ def main():
 if __name__ == '__main__':
     path_to_result = main()
     system(f"start {path_to_result}")
+    input("Press enter to exit...")
